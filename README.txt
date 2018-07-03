@@ -1,6 +1,8 @@
 This project is runned under Linux-4.14.39.
 Need an extra system call to print the result.
-The code is in hw1_syscall directory.
+The code is in linux-4.14.39.
+The system call file is  kernel/hw1.c
+Other alternation includes syscall64.tbl in arch and syscall.h in lib.
 =====================================================
 compile:
 gcc hw1.c -o hw1
